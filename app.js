@@ -44,8 +44,7 @@ document.getElementById('get-recipes').addEventListener('click', async function(
 
 // Fetch recipe ideas from ChatGPT (OpenAI API)
 function fetchRecipeIdeas() {
-    const apiKey = process.env.OPENAI_API_KEY; // Use environment variable
- // Replace with your actual OpenAI API key
+    const apiKey = 'YOUR-APIKEY';  // Replace with your actual OpenAI API key
     const url = 'https://api.openai.com/v1/chat/completions';
 
     const data = {
@@ -93,8 +92,7 @@ function fetchRecipeIdeas() {
 
 // Fetch image for recipe title using DALL·E (OpenAI API)
 function fetchRecipeImage(prompt) {
-    const apiKey = process.env.OPENAI_API_KEY; // Use environment variable
- // Replace with your actual OpenAI API key
+    const apiKey = 'YOUR-APIKEY';
     const url = 'https://api.openai.com/v1/images/generations';
 
     const data = {
