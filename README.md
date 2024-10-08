@@ -10,8 +10,7 @@ Instructions
 Set Up Your API Key:
 
 You will need to set up 2 variables with your own API Key.
-
-In app.js : Here is were you can find the variables to update.
+In app.js : Here is were you can find the variables to update:
 
 1. function fetchRecipeIdeas() 
     const apiKey = 'YOUR-APIKEY';  // Replace with your actual OpenAI API key
