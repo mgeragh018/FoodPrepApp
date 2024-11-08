@@ -1,5 +1,5 @@
 Food Prep App
-Michael Geraghty
+Michael Geraghty, Jason Lahoda, 
 10/7/2024
 Software Design Fall 24
 Setup and Running Instructions
